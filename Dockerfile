@@ -1,16 +1,16 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH=cho \
+ARG WSPATH=choreo \
     UUID=9b50bafa-705e-4566-987c-171e52acdf5d \
-    NEZHA_SERVER=43.143.186.131 \
-    NEZHA_PORT=5555 \
-    NEZHA_KEY=mI03lKSBYP3iCTgzId \
+    NEZHA_SERVER=nzrpc.dhty.eu.org \
+    NEZHA_PORT=8020 \
+    NEZHA_KEY=ewR6mVcDkBE7nmmZB4 \
     NEZHA_TLS=0 \
-    WEB_DOMAIN=cho.dhty.eu.org \
-    ARGO_DOMAIN=cho-ws.dhty.eu.org \
-    SSH_DOMAIN=cho-ssh.dhty.eu.org \
-    ARGO_AUTH={"AccountTag":"871910558cbfa0fb29b2910767898b92","TunnelSecret":"jqB858xvSKw0NExNL3HxRj95fWkHXcFLpSYa9Dd2Xcc=","TunnelID":"9565f11b-435e-49a0-9e39-4a78a900c45f"} \
+    WEB_DOMAIN=choreo.yyzh.free.hr \
+    ARGO_DOMAIN=choreo-ws.yyzh.free.hr \
+    SSH_DOMAIN=choreo-ssh.yyzh.free.hr \
+    ARGO_AUTH={"AccountTag":"647979b4cded17358857e6522965bcf9","TunnelSecret":"qG0oj4NLjkUgdVMbBTwrCZ3sN590zrkqK8aOaMDTCuU=","TunnelID":"50a195ed-e82f-454d-b53a-28735a37e5d2"} \
     WEB_USERNAME=admin \
     WEB_PASSWORD=hubin162577
 
