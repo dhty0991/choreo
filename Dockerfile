@@ -7,8 +7,8 @@ ARG WSPATH=choreo \
     NEZHA_PORT=8020 \
     NEZHA_KEY=ewR6mVcDkBE7nmmZB4 \
     NEZHA_TLS=0 \
-    WEB_DOMAIN=choreo.yyzh.free.hr \
-    ARGO_DOMAIN=choreo-ws.yyzh.free.hr \
+    WEB_DOMAIN=choreo-ws.yyzh.free.hr \
+    ARGO_DOMAIN=choreo.yyzh.free.hr \
     SSH_DOMAIN=choreo-ssh.yyzh.free.hr \
     ARGO_AUTH={"AccountTag":"647979b4cded17358857e6522965bcf9","TunnelSecret":"qG0oj4NLjkUgdVMbBTwrCZ3sN590zrkqK8aOaMDTCuU=","TunnelID":"50a195ed-e82f-454d-b53a-28735a37e5d2"} \
     WEB_USERNAME=admin \
